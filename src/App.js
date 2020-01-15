@@ -76,7 +76,7 @@ export default class App extends Component {
               <th className="done"> Done </th>
             </tr>
           </thead>
-          <tbody>{this.donetodoTableRows()}</tbody>
+          <tbody className="doneItems">{this.donetodoTableRows()}</tbody>
         </table>
         <table className="table table-bordered">
           <thead>

@@ -4,3 +4,6 @@
 .done {
  width : 200px;
 }
+.doneItems {
+  text-decoration: line-through;
+}
